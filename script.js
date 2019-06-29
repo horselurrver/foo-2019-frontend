@@ -1,7 +1,7 @@
 $(document).ready(function() {
     console.log( "ready!" );
     $.ajax({
-      url: 'https://ign-apis.herokuapp.com/',
+      url: 'https://pokeapi.co/api/v2/pokemon/butterfree',
       type: 'GET',
       data: {},
       dataType: 'text',

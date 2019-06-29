@@ -1,0 +1,40 @@
+body {
+  padding: 5em;
+  background: linear-gradient(to bottom, #8d8d8d 0%, #ffffff 40%) no-repeat center center fixed;
+}
+
+.center {
+  text-align: center;
+}
+
+.form-inline {
+  margin-top: 3em;
+}
+
+.form-inline .form-control {
+  width: 70%;
+  display: inline-block;
+}
+
+
+.form-control {
+  background-color: inherit;
+  border: none;
+}
+
+
+input[type=text] {
+  border-bottom: 1px solid lightgrey;
+  box-shadow: 0 1px 0 0 lightgrey;
+}
+
+input:focus {
+  border-bottom: 1px solid blue;
+  box-shadow: 0 1px 0 0 blue;
+}
+
+#pokedex-logo {
+  width: 50em;
+  margin: 0 auto;
+  display: block;
+}
