@@ -42,18 +42,26 @@ input:focus {
 }
 
 .pokemonPlaceholder {
-  margin-top: 5em;
+  margin-top: 4em;
 }
 
 .pokemon {
   display: inline-block;
+  background: lightblue;
   margin: 1em;
-  text-align: justify;
-  width: 10em;
+  width: 15em;
+}
+
+.caption {
+  text-align: center;
+  color: white;
+  background: black;
+  opacity: 0.5;
 }
 
 .pokemon img {
   display: block;
   margin: 0 auto;
   width: 10em;
+  margin-top: 1em;
 }
