@@ -37,6 +37,7 @@ $(document).ready(function() {
     $('#searchbar').keyup(function() {
       let result = []
       let search = $('#searchbar').val();
+      search = search.toLowerCase();
       for (let i = 0; i < pokemonObjects.length; i++) {
         if (pokemonObjects[i].name.startsWith(search)) {
           result.push(pokemonObjects[i]);
