@@ -40,3 +40,8 @@ input:focus {
 #mag-glass {
   width: 2%;
 }
+
+.pokemonPlaceholder {
+  display: inline-block;
+  margin-top: 5em;
+}
