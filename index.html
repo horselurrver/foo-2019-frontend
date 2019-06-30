@@ -10,7 +10,10 @@
     <script type="text/x-handlebars-template" id="pokemonTemplate">
       <ul>
         {{#each pokemon}}
-          <img src="{{this.sprites.front_default}}"/>
+          <div class="pokemon">
+            <img src="{{formatImage this}}"/>
+            <figcaption>{{formatNames this.name}}</figcaption>
+          </div>
         {{/each}}
       </ul>
     </script>
