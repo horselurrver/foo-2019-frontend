@@ -16,12 +16,10 @@ body {
   display: inline-block;
 }
 
-
 .form-control {
   background-color: inherit;
   border: none;
 }
-
 
 input[type=text] {
   border-bottom: 1px solid lightgrey;
@@ -37,4 +35,8 @@ input:focus {
   width: 50em;
   margin: 0 auto;
   display: block;
+}
+
+#mag-glass {
+  width: 2%;
 }
